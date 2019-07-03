@@ -2,11 +2,21 @@ library(remotes)
 
 ##### Install specific package versions from CRAN #####
 
-# install_version("ggplot2", "3.0.0")
-# install_version("dplyr", "0.7.5")
-# install_version("tidyr", "0.8.1")
-# install_version("purrr", "0.2.5")
 
+#install_version("readxl", "1.3.1")
+install_version("tidyverse", "1.2.1")
+#install_version("plyr", "1.8.4")
+install_version("arules", "1.6-3")
+#install_version("arulesViz", "1.3-3")
+#install_version("visNetwork", "2.0.7")
+#install_version("knitr", "1.23")
+#install_version("lubridate", "1.7.4")
+
+# Some issues with the arules package
+#packageurl = "https://cran.r-project.org/src/contrib/arules_1.6-3.tar.gz"
+#install.packages(packageurl, repos=NULL, type="source")
+
+#remotes::install_github("mhahsler/arules@arules_1.6-3")
 ##### Install packages in development from GitHub #####
 
 # install_github("nicholasehamilton/ggtern")
