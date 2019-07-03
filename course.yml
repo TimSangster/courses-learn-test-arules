@@ -1,5 +1,5 @@
 title: learn_test_arules
 description: Course description goes here.
 programming_language: r
-from: "r-base-prod:v1.0.2"
+from: "r-base-prod:v1.3.2"
 #from: "tidyverse-base-prod:v1.0.2"
